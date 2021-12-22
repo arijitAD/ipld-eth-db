@@ -23,6 +23,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: tikarya/eth-statediff-service:${{ steps.vars.outputs.tag }}
+          tags: tikarya/ipld-eth-db:${{ steps.vars.outputs.tag }}
           build-args: |
             GIT_COMMIT=${{ steps.vars.outputs.sha }}
