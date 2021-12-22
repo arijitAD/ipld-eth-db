@@ -24,6 +24,7 @@ CREATE SCHEMA eth;
 
 
 SET default_tablespace = '';
+SET default_table_access_method = heap;
 
 --
 -- Name: header_cids; Type: TABLE; Schema: eth; Owner: -
